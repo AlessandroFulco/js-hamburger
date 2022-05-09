@@ -3,7 +3,7 @@
 //creare una funzione che al click aggiunge 
 // la classe .active al div.hamburger-menu
 
-const button = document.querySelector('.fa-bars');
+const button = document.querySelector('i');
 console.log(button);
 
 const menu  = document.querySelector('.hamburger-menu');
