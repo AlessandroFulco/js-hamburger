@@ -3,7 +3,7 @@
 //creare una funzione che al click aggiunge 
 // la classe .active al div.hamburger-menu
 
-const button = document.querySelector('i');
+const button = document.querySelector('.header-right > a');
 console.log(button);
 
 const menu  = document.querySelector('.hamburger-menu');
@@ -22,5 +22,3 @@ menu.addEventListener('click',
         menu.classList.remove('active');
     }
 );
-
-
